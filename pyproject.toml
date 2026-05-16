@@ -1,0 +1,18 @@
+[project]
+name = "urban-growth-analysis"
+version = "0.1.0"
+description = "Multi-Temporal Urban Sprawl and Nature Loss Analysis in Warsaw"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sentinelhub>=3.10.0",
+    "oauthlib>=3.2.2",
+    "numpy>=1.26.0",
+    "opencv-python>=4.9.0",
+    "scikit-image>=0.22.0",
+    "scikit-learn>=1.4.0",
+    "matplotlib>=3.8.0",
+    "pandas>=2.2.0",
+    "python-dotenv>=1.0.1",
+    "ipykernel>=6.29.0"
+]

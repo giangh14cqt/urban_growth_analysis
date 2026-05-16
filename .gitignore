@@ -1,0 +1,51 @@
+# --- Security Credentials ---
+.env
+
+# --- Virtual Environments & Package Managers ---
+.venv/
+venv/
+ENV/
+.uv/
+
+# --- Temporary/Runtime Generated Data & Diagnostics ---
+# All intermediate visual png reports, aligned matrices, and classifications are generated dynamically
+data/
+data_custom/
+
+# --- Master Preset Seed Data (DO NOT IGNORE) ---
+# We keep presets/ tracked so that teammates and professors get the pre-cached Warsaw data instantly!
+!presets/
+!presets/*.npy
+
+# --- Python Compiled Bytecode & Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Build & Distribution Artifacts ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- IDEs and Editor Backups ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
